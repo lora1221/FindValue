@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find a value in an array</title>
+</head>
+<body>
+<script>
+    var value = parseInt(prompt("Enter a number: "));
+    var x = [-3,5,1,3,2,10];
+    for(var i = 0, l = x.length; i < l; i++) {
+        if (value == x[i]) {
+            alert("Value "+value+ " is found at " + i);
+        }
+    }
+</script>
+</body>
+</html>
